@@ -1,0 +1,32 @@
+{"prompt":"Explain what an API is to a beginner in three short paragraphs."}
+{"prompt":"Write a clean Python function that removes duplicates from a list while preserving order."}
+{"prompt":"What is the difference between a database and a cache?"}
+{"prompt":"Give a practical checklist for debugging a web app that suddenly returns HTTP 500."}
+{"prompt":"Explain overfitting in machine learning with a simple example."}
+{"prompt":"Write a concise README section explaining how to install a Python package from source."}
+{"prompt":"Why does quantization reduce model storage, and what tradeoff does it introduce?"}
+{"prompt":"Give five safe and useful ways a small local language model can help a solo developer."}
+{"prompt":"Explain gradient descent without using heavy mathematics."}
+{"prompt":"Write a small JavaScript function that debounces another function."}
+{"prompt":"Compare fine-tuning and retrieval-augmented generation for a small assistant."}
+{"prompt":"What information should never be committed to a public Git repository?"}
+{"prompt":"Explain what LoRA changes inside a neural network."}
+{"prompt":"Give a minimal plan for turning a model checkpoint into a GGUF file."}
+{"prompt":"How would you test whether a distilled small model actually improved?"}
+{"prompt":"Write a concise answer to a user who asks for a coding bug to be reproduced step by step."}
+{"prompt":"Explain why a 2B-parameter model is much larger on disk than a 10M-parameter model."}
+{"prompt":"Give three ways to keep a machine-learning repository small even when the model is large."}
+{"prompt":"Write a short Python example that streams a JSONL file line by line."}
+{"prompt":"Explain teacher-student knowledge distillation using an everyday analogy."}
+{"prompt":"What is the purpose of a validation set during fine-tuning?"}
+{"prompt":"Describe a good folder structure for a tiny model training repository."}
+{"prompt":"Explain the difference between FP16, BF16, INT8, and INT4 model storage."}
+{"prompt":"Write a short shell script that fails safely when a required directory is missing."}
+{"prompt":"Give a debugging checklist for an out-of-memory error during QLoRA training."}
+{"prompt":"Explain why assistant-only loss masking is useful for instruction tuning."}
+{"prompt":"Suggest a compact evaluation set for a general-purpose tiny assistant."}
+{"prompt":"How can synthetic training data improve a small model without changing its base architecture?"}
+{"prompt":"Write a concise explanation of why model weights should usually live on a model hub rather than Git."}
+{"prompt":"Explain what a tokenizer does and why vocabulary size affects parameter count."}
+{"prompt":"Give a safe default generation configuration for a concise coding assistant."}
+{"prompt":"How can you detect whether a small model is memorizing its synthetic training set?"}
