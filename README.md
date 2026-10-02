@@ -16,7 +16,7 @@ The goal is not to compete with large models. The goal is to have a complete, un
 
 ## Architecture
 
-With the default configuration (vocab_size=8192) the model has 10,055,424 trainable parameters (~10.06M).
+With the default configuration (vocab_size=8192) the model has 10,060,800 trainable parameters (~10.06M).
 
 | Setting | Value |
 |---|---:|
@@ -28,7 +28,7 @@ With the default configuration (vocab_size=8192) the model has 10,055,424 traina
 | MLP size | 1,024 |
 | Attention | causal SDPA |
 | Output head | tied to token embeddings |
-| Parameters | 10,055,424 |
+| Parameters | 10,060,800 |
 
 The attention implementation uses PyTorch's scaled dot-product attention primitive, which can dispatch to optimized kernels when the installed backend supports them.
 
