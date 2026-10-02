@@ -1,0 +1,22 @@
+Mini-AI is a small language model built from scratch for learning.
+A language model reads tokens and predicts the next token.
+Transformers use attention to let every position look at earlier positions.
+Training adjusts neural network weights so useful predictions become more likely.
+A small model cannot know everything, but it can still learn patterns from examples.
+
+Python is a programming language used for experiments and software.
+Git records changes to a project so developers can work safely.
+A dataset should be clean, documented, and large enough for the goal.
+Evaluation measures whether a model is improving rather than merely memorizing.
+Good experiments keep the configuration, random seed, and results together.
+
+The sky changes color during sunrise and sunset because light travels through air.
+Water can freeze into ice, boil into vapor, and remain liquid at ordinary temperatures.
+Plants use sunlight, water, and carbon dioxide to grow.
+Books preserve ideas so they can be shared between people and generations.
+
+Mini-AI uses a decoder-only Transformer.
+It has ten layers, eight attention heads, and a hidden width of 256.
+The vocabulary budget is 8192 tokens and the context length is 256 tokens.
+The token embeddings are tied to the output projection to reduce the parameter count.
+The model is intentionally small enough for experiments on modest hardware.
