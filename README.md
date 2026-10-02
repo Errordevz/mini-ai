@@ -78,7 +78,7 @@ After training:
 Install/build llama.cpp separately, then:
 
     LLAMA_CPP_DIR=./llama.cpp \
-    ./scripts/quantize_gguf.sh \
+    bash scripts/quantize_gguf.sh \
       artifacts/mini-ai-merged \
       artifacts/gguf
 
@@ -89,6 +89,10 @@ Default quantization:
 A Q4_K_M build of this model family is around the ~500 MB range instead of multi-gigabyte bf16/fp32 storage.
 
 ## Tiny runtime
+
+Install the optional runtime dependencies:
+
+    pip install -r requirements-qwen.txt
 
 The runtime downloads the model on demand instead of bundling weights into this repository:
 
