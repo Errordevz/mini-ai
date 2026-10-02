@@ -4,5 +4,6 @@ __pycache__/
 artifacts/
 checkpoints/
 data/corpus/
+data/distilled.jsonl
 .pytest_cache/
 .DS_Store
