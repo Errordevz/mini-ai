@@ -1,0 +1,4 @@
+# Optional Qwen runtime (model weights stay on Hugging Face).
+torch>=2.6,<3
+transformers>=5,<6
+accelerate>=1,<2
