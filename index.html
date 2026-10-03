@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Mini-AI</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">M</div>
+        <div>
+          <h1>Mini-AI</h1>
+          <span id="status">starting…</span>
+        </div>
+      </div>
+      <button id="clear" class="ghost" type="button">Clear</button>
+    </header>
+
+    <section id="messages" class="messages" aria-live="polite"></section>
+
+    <div id="loading" class="loading hidden">
+      <div class="spinner"></div>
+      <div>
+        <strong>Loading Mini-AI</strong>
+        <span id="loadingText">Downloading the local model…</span>
+      </div>
+    </div>
+
+    <form id="composer" class="composer">
+      <textarea id="input" rows="1" maxlength="4000" placeholder="Message Mini-AI…" autocomplete="off"></textarea>
+      <button id="send" class="send" type="submit" aria-label="Send">↑</button>
+    </form>
+
+    <footer>
+      <span>Runs locally in your browser with WebGPU.</span>
+      <span id="runtime">checking GPU…</span>
+    </footer>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
